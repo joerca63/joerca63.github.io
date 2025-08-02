@@ -2,7 +2,7 @@ function downloadPDF() {
     const element = document.querySelector('.container-lg');
 
     const opt = {
-        margin: [2,0.1, 1 , 5],  // [arriba, izquierda, abajo, derecha] en mm
+        margin: [0,0.0, 0 , 0],  // [arriba, izquierda, abajo, derecha] en mm
         filename: 'Hoja_de_Vida_Julian_Buitrago.pdf',
         image: { type: 'jpeg', quality: 0.98 },
         html2canvas: {
